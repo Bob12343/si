@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+.container {
+    background: url('yaaaa.jpg') no-repeat center center/cover;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p {
+    font-size: xxx-large;
+    padding: 15%;
+    color: crimson
+}
+
+button {
+    font-size: xx-large;
+    padding: 0.75em;
+}
+
+#noBtn {
+   position: relative;
+   top: -27%;
+   left: 10%; 
+   transform: translate(-20%, 230%);
+}
+
+#yesBtn {
+    position: absolute;
+    top: 88%;
+    left: 43%;
+    transform: translate(-50%, -100%);
+}    
